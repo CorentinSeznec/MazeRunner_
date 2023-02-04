@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8653008250170971727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8653008250170971725}
+  - component: {fileID: 8653008250170971724}
+  - component: {fileID: 1879005807332222945}
+  m_Layer: 0
+  m_Name: MusicBot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8653008250170971725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8653008250170971727}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.989198, y: 1.3746238, z: 1.1392195}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8653008250170971724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8653008250170971727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a1f0ca672df0242a6da7722339daf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkInterval: 1
+  minMusicPlay: 5
+  musics:
+  - {fileID: 8300000, guid: 4486a8999b464a342b217aa99f548906, type: 3}
+  - {fileID: 8300000, guid: ee4d41bf3392d654d88520886fd2e155, type: 3}
+  - {fileID: 8300000, guid: f18c904adfc167b4890ad6a16b1e1f1c, type: 3}
+  - {fileID: 8300000, guid: f18c904adfc167b4890ad6a16b1e1f1c, type: 3}
+  - {fileID: 8300000, guid: 70c807c62334a9c4194e7ff601a21aee, type: 3}
+--- !u!114 &1879005807332222945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8653008250170971727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34fdfff03036a54aa2f8369be992acf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultAmbience: {fileID: 8300000, guid: 3a8bb2edef236374391cb759770c1a2d, type: 3}
+  timeToFade: 1.25

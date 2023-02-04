@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6321667373618081456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3296204974064711888}
+  - component: {fileID: 3865013864552577675}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3296204974064711888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6321667373618081456}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3865013864552577675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6321667373618081456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b7a54ff1625df44c87323197e363456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fullAIGame: 1
+  playerObj: {fileID: 2667477641662732487, guid: 08cd0148e13f66a289b43c0d416d6346, type: 3}
+  aiPlayerObj: {fileID: 5480501935842983104, guid: d74c4dcebed6c078ba5bdea80f4a97eb, type: 3}
+  allyAIObj: {fileID: 2430630521214153600, guid: b83f8720d324e244ebf3673c6c4e10da, type: 3}
+  enemyAIObj: {fileID: 2430630521214153600, guid: 3a7b4e585e49c03a79e5b264b9d19405, type: 3}
+  minotaureObj: {fileID: 4548501355826110632, guid: 6670157e916210143983a3a772b583b9, type: 3}
+  allyLayer: 6
+  enemyLayer: 7
+  hazardDistance: 5
+  portalObject: {fileID: 3362017278344551867, guid: 81747a1273801cd47b19586c7e87b319, type: 3}
