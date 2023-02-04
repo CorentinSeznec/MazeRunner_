@@ -1,5 +1,5 @@
 afin de fonctionner le projet a besoin de assets:
-il faut les placer dans AssetsToolStore:
+il faut les placer dans AssetToolStore (il faut le créer, il est dans Assets):
 les voici:
 
 - NavMeshComponents  ( trouvable sur internet, aller sur le github et le dl)
